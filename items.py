@@ -12,3 +12,7 @@ class HauntTheWebDownItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     title = scrapy.Field()
+    email = scrapy.Field()
+    form = scrapy.Field()
+    comments = scrapy.Field()
+    location_url = scrapy.Field()
